@@ -1,0 +1,11 @@
+{
+  "watch": ["server"],
+  "ext": "js,mjs,cjs",
+  "ignore": [
+    "server/db/fallback-store.json",
+    "node_modules/**",
+    "dist/**",
+    "src/**"
+  ],
+  "delay": 500
+}
