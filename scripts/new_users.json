@@ -1,0 +1,5 @@
+[
+  { "username": "admin", "password": "admin123", "full_name": "System Administrator", "email": "admin@store.org", "role": "Administrator" },
+  { "username": "manager", "password": "manager123", "full_name": "Store Manager", "email": "manager@store.org", "role": "Store Manager" },
+  { "username": "storekeeper", "password": "keeper123", "full_name": "Storekeeper", "email": "keeper@store.org", "role": "Storekeeper" }
+]

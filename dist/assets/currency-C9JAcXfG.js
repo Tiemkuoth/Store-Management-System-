@@ -1,0 +1,1 @@
+function e(e){return e==null||isNaN(e)?`Birr 0.00`:`Birr ${parseFloat(e).toLocaleString(`en-US`,{minimumFractionDigits:2,maximumFractionDigits:2})}`}export{e as t};

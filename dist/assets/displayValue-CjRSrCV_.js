@@ -1,0 +1,1 @@
+function e(e,t=`Not available`){return e==null?t:`${e}`.trim()||t}function t(e,t=0){let n=Number(e);return Number.isFinite(n)?n<0?t:n:t}export{e as n,t};

@@ -1,0 +1,1 @@
+var e=`http://localhost:5000/api`;async function t(t,n={}){let r=localStorage.getItem(`auth_token`),i={"Content-Type":`application/json`,...n.headers||{}};return r&&(i.Authorization=`Bearer ${r}`),await fetch(`${e}${t}`,{...n,headers:i})}export{t as n,e as t};
